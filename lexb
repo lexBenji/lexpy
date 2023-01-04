@@ -1,0 +1,22 @@
+#!/usr/bin/python
+
+from sys import argv
+
+if len(argv) < 2:
+    print('usage: lexb file.lexb')
+    exit(1)
+
+if not argv[1].endswith('.lexb'):
+    print('usage: lexb file.lexb')
+    exit(1)
+
+with open(argv[1],'r') as fl:
+    fl = fl.readlines()
+    for i in fl:
+        for w in i.split():
+            if w == 'print:':
+                w = ''
+            elif w == 'endl':
+                print()
+            else:
+                print(w,end=' ')
