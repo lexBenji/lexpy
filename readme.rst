@@ -1,7 +1,7 @@
 Info
 ====
 
-[lexb](https://github.com/lexBenji/lexb) but written in python
+`lexb <https://github.com/lexBenji/lexb>` but written in python
 
 Usage
 =====
