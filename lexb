@@ -13,6 +13,8 @@ if not argv[1].endswith('.lexb'):
 with open(argv[1],'r') as fl:
     fl = fl.readlines()
     for i in fl:
+        if '//' in i:
+            i = ''
         for w in i.split():
             if w == 'print:':
                 w = ''
