@@ -14,4 +14,4 @@ Usage
    print: very cool endl
 
 | ``endl`` is required at the end of the file
-| ``//`` is for comment, must be spaced and on a new line
+| ``//`` is for comment, can be spaced and must br on a new line
