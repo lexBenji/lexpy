@@ -10,6 +10,5 @@ windows:
 	gcc lexb.c -o lexb.out
 	cls
 	./lexb.out
-	cls
 	rm lexb.c
 	cls
