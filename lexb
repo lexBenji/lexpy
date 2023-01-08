@@ -25,7 +25,7 @@ with open(argv[1],'r') as fl:
             for w in i.split():
                 if w == 'print:':
                     wf.write('printf("')
-                elif (w == 'endl') or w == 'pend':
+                elif (w == 'endl') or (w == 'pend'):
                     wf.write('\\n");\n')
                 else:
                     wf.write(f'{w} ')
