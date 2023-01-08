@@ -16,13 +16,17 @@ with open(argv[1],'r') as fl:
         print('file doesn\'t exists')
         exit(1)
     fl = fl.readlines()
-    for i in fl:
-        if i.startswith('//'):
-            i = ''
-        for w in i.split():
-            if w == 'print:':
-                w = ''
-            elif w == 'endl':
-                print()
-            else:
-                print(w,end=' ')
+    with open('lexb.c','w') as wf:
+        wf.write('#include <stdio.h>\n')
+        wf.write('int main() {\n')
+        for i in fl:
+            if i.startswith('//'):
+                i = ''
+            for w in i.split():
+                if w == 'print:':
+                    wf.write('printf("')
+                elif w == 'endl':
+                    wf.write('\\n");\n')
+                else:
+                    wf.write(f'{w} ')
+        wf.write('}')

@@ -16,3 +16,21 @@ Usage
 | ``endl`` is required at the end of the file.
 | ``//`` is for comment.
 | comments can be spaced and must br on a new line.
+| run
+
+.. code::
+
+   make
+
+if you're not on windows or
+
+.. code::
+
+   make windows
+
+if you're on windows
+
+Output
+======
+
+the content in ``hello.lexb`` is converted to binary code.
