@@ -3,6 +3,15 @@ Info
 
 `lexb <https://github.com/lexBenji/lexb>`_ but written in python
 
+Install
+=======
+
+.. code::
+
+   git clone https://github.com/lexBenji/lexpy
+   cd lexpy
+   make
+
 Usage
 =====
 
