@@ -8,6 +8,4 @@ windows:
 	./lexb hello.lexb
 	cls
 	gcc lexb.c -o lexb.out
-	cls
-	./lexb.out
-	rm lexb.c ; cls
+	cls ; ./lexb.out ; rm lexb.c
