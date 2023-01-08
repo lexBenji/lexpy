@@ -34,3 +34,8 @@ Output
 ======
 
 the content in ``hello.lexb`` is converted to binary code by a low level language.
+
+Notice
+======
+
+if you don't follow what you read then it won't work.
