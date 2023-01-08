@@ -1,6 +1,7 @@
 #!/usr/bin/python
 
 from sys import argv
+import os
 
 if len(argv) < 2:
     print('usage: lexb file.lexb')
@@ -11,6 +12,9 @@ if not argv[1].endswith('.lexb'):
     exit(1)
 
 with open(argv[1],'r') as fl:
+    if os.path.exists(argv[1]) == False:
+        print('file doesn\'t exists')
+        exit(1)
     fl = fl.readlines()
     for i in fl:
         if i.startswith('//'):
