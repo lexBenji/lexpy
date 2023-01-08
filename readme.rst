@@ -33,4 +33,4 @@ if you're on windows
 Output
 ======
 
-the content in ``hello.lexb`` is converted to binary code.
+the content in ``hello.lexb`` is converted to binary code by a low level language.
