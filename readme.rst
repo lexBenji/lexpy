@@ -15,7 +15,7 @@ Usage
    // multi-line print
    print: hello\nworld pend
 
-| ``endl`` is required at the end of the file.
+| ``endl`` or ``pend`` is required at the end of the file.
 | ``//`` is for comment.
 | comments can be spaced and must br on a new line.
 | run
