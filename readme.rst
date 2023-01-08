@@ -8,10 +8,12 @@ Usage
 
 .. code:: lexb
 
-   // prints hello world
+   //prints hello world
    print: hello world endl
    // prints very cool
-   print: very cool endl
+   print: very cool pend
+   // multi-line print
+   print: hello\nworld pend
 
 | ``endl`` is required at the end of the file.
 | ``//`` is for comment.
