@@ -2,7 +2,7 @@ Requirement
 ===========
 
 - `gcc <https://gcc.gnu.org/installation>`_
-- `make`_
+- make
 
 Info
 ====
