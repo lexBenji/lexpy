@@ -42,7 +42,7 @@ if you're not on windows or
 
 .. code:: sh
 
-   nmake -f makefile.win
+   make -f makefile.win
 
 if you're on windows
 
