@@ -1,3 +1,9 @@
+Requirement
+===========
+
+- `gcc <https://gcc.gnu.org/installation>`_
+- `make`_
+
 Info
 ====
 
@@ -29,15 +35,15 @@ Usage
 | comments can be spaced and must br on a new line.
 | run
 
-.. code::
+.. code:: sh
 
-   make
+   sh -s make -c
 
 if you're not on windows or
 
-.. code::
+.. code:: sh
 
-   make windows
+   nmake -f makefile.win
 
 if you're on windows
 
