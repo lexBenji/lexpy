@@ -17,15 +17,15 @@ Usage
 
 .. code:: py
 
-   //prints hello world
+   @prints hello world
    print: hello world endl
-   // prints very cool
+   @ prints very cool
    print: very cool pend
-   // multi-line print
+   @ multi-line print
    print: hello\nworld pend
 
 | ``endl`` or ``pend`` is required at the end of the file.
-| ``//`` is for comment.
+| ``@`` is for comment.
 | comments can be spaced and must br on a new line.
 | run
 

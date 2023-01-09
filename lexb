@@ -20,7 +20,7 @@ with open(argv[1],'r') as fl:
         wf.write('#include <stdio.h>\n')
         wf.write('int main() {\n')
         for i in fl:
-            if i.startswith('//'):
+            if i.startswith('@'):
                 i = ''
             for w in i.split():
                 if w == 'print:':
