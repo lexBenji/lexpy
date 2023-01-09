@@ -6,7 +6,7 @@ Info
 Install
 =======
 
-.. code::
+.. code:: py
 
    git clone https://github.com/lexBenji/lexpy
    cd lexpy
@@ -15,7 +15,7 @@ Install
 Usage
 =====
 
-.. code:: lexb
+.. code:: py
 
    //prints hello world
    print: hello world endl
