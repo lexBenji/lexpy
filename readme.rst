@@ -16,7 +16,6 @@ Install
 
    git clone https://github.com/lexBenji/lexpy
    cd lexpy
-   make
 
 Usage
 =====
