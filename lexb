@@ -13,7 +13,7 @@ if not argv[1].endswith('.lexb'):
 
 with open(argv[1],'r') as fl:
     if os.path.exists(argv[1]) == False:
-        print('file doesn\'t exists')
+        print('file doesn\'t exist')
         exit(1)
     fl = fl.readlines()
     with open('lexb.c','w') as wf:
