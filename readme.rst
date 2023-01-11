@@ -27,7 +27,7 @@ Usage
    @ prints very cool
    print: very cool pend
    @ multi-line print
-   print: hello\nworld pend
+   print: hello\nworld endl
 
 | ``endl`` or ``pend`` is required at the end of the file.
 | ``@`` is for comment.

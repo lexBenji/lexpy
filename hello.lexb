@@ -3,4 +3,4 @@ print: hello world endl
 @ prints very cool
 print: very cool pend
 @ multi-line print
-print: hello\nworld pend
+print: hello\nworld endl
