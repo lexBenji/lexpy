@@ -49,9 +49,16 @@ if you're on windows
 Output
 ======
 
-the content in ``hello.lexb`` is converted to binary code by a low level language.
+| the content in ``hello.lexb`` is converted to binary code by a low level language.
+| automatically executes the binary file.
 
 Notice
 ======
 
 if you don't follow what you read then it won't work.
+
+Dev
+===
+
+| this is the development branch.
+| this is for the tests.
