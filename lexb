@@ -35,3 +35,5 @@ with open(argv[1],'r') as fl:
 
 subprocess.run('gcc lexb.c -o lexb.out',shell=True)
 subprocess.run('rm lexb.c;./lexb.out',shell=True)
+
+# hehehah
