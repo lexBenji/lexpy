@@ -2,6 +2,7 @@
 
 from sys import argv
 import os
+import subprocess
 
 if len(argv) < 2:
     print('usage: lexb file.lexb')
@@ -31,3 +32,6 @@ with open(argv[1],'r') as fl:
                     wf.write(f'{w} ')
         wf.write('return 0;\n');
         wf.write('}\n')
+
+subprocess.run('gcc lexb.c -o lexb.out',shell=True)
+subprocess.run('rm lexb.c;./lexb.out',shell=True)
