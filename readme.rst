@@ -22,14 +22,11 @@ Usage
 
 .. code:: c
 
-   @prints hello world
-   print: hello world endl
-   @ prints very cool
-   print: very cool pend
-   @ multi-line print
-   print: hello\nworld endl
+   int v = 1;
 
-| ``endl`` or ``pend`` is required at the end of the file.
+   print: "v is %d\n",v endl;
+
+| ``endl`` or ``pend`` is required at the end of the file and they must have a semi-colon (;) at the end.
 | ``@`` is for comment.
 | comments can be spaced and must br on a new line.
 | run

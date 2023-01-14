@@ -2,7 +2,6 @@
 
 from sys import argv
 import os
-import subprocess
 
 if len(argv) < 2:
     print('usage: lexb file.lexb')
@@ -21,19 +20,17 @@ with open(argv[1],'r') as fl:
         wf.write('#include <stdio.h>\n')
         wf.write('int main() {\n')
         for i in fl:
-            if i.startswith('@'):
-                i = ''
             for w in i.split():
                 if w == 'print:':
-                    wf.write('printf("')
-                elif w == 'endl' or w == 'pend':
-                    wf.write('\\n");\n')
+                    wf.write('printf(')
+                elif w == 'cmt':
+                    wf.write('/*')
+                elif w == 'endc':
+                    wf.write('*/')
+                elif w == 'endl;' or w == 'pend;':
+                    wf.write(');\n')
                 else:
-                    wf.write(f'{w} ')
+                    wf.write(w+' ')
+            wf.write('\n')
         wf.write('return 0;\n');
         wf.write('}\n')
-
-subprocess.run('gcc lexb.c -o lexb.out',shell=True)
-subprocess.run('rm lexb.c;./lexb.out',shell=True)
-
-# hehehah
