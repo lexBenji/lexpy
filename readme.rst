@@ -60,5 +60,5 @@ if you don't follow what you read then it won't work.
 Dev
 ===
 
-| this is the development branch.
-| this is for the tests.
+| the ``dev`` branch the development branch.
+| it is for the tests.
